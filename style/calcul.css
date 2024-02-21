@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 255, 255, 0.644);
+    overflow: hidden;
+}
+section{
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.inpute{
+    margin: 5px 5px 5px 0;
+}
+input{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    color: rgb(74, 235, 127);
+    overflow: hidden;
+    padding: 5px 5px 5px 15px;
+    background-color: rgba(0, 0, 0, 0.589);
+}
+button{
+    padding: 10px;
+    width: 100px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    background-color: rgba(247, 189, 118, 0.664);
+}
+.travail{
+    position: relative;
+    display: block;
+}
+.reponse{
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    transition: 0.5s ease-in-out;
+    border-radius: 20px;
+}
+.operation{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    font-weight: 800;
+    color: rgb(250, 0, 125);
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    width: 200px;
+    margin: 20px auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.score{
+    word-break: break-all;
+    font-size: 2rem;
+    transition: 0.2s;
+    visibility: hidden;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    height: 150px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+}
